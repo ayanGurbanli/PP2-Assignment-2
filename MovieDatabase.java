@@ -16,5 +16,12 @@ class MovieDatabase {
         movies.addAll(copy);
     }
     
+    public void deleteMovie (Movie oldMovie) {
+        movies.remove(oldMovie);
+    }
+
+    public void deleteMovies(List<Movie> oldMovies ) {
+        
+    }
 
 }
