@@ -1,15 +1,16 @@
-public class Movie {
+import java.io.Serializable;
 
+class Movie implements Serializable {
     private String title;
     private String director;
     private int releaseYear;
     private int runningTime;
 
-    public Movie(String title, String director, int releaseYear, int runningTime){
-        this.title=title;
-        this.director=director;
-        this.releaseYear=releaseYear;
-        this.runningTime=runningTime;
+    public Movie(String title, String director, int releaseYear, int runningTime) {
+        this.title = title;
+        this.director = director;
+        this.releaseYear = releaseYear;
+        this.runningTime = runningTime;
     }
 
     public String getTitle() {
@@ -44,11 +45,9 @@ public class Movie {
         this.runningTime = runningTime;
     }
     
-    @Override
-    public String toString() {
-        return "Movie: title=" + title + ", director=" + director + ", releaseYear=" + releaseYear + ", runningTime="
-                + runningTime + " ";
-    }
 
-    
+    public String getDetails() {
+        return "Title: '" + title + "',   \nDirector: " + director +
+                ",   \nRelease Year: " + releaseYear + ",   \nRunning Time: " + runningTime + " mins\n";
+    }
 }
