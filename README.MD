@@ -421,3 +421,8 @@ The `main` method invokes the GUI on the Event Dispatch Thread.
         SwingUtilities.invokeLater(() -> new MovieAppGUI().setVisible(true));
     }
 
+
+Youtube video links
+Swing GUI implementation -> https://youtu.be/8nMAqL0sPO4
+MovieApp explanation ->https://youtu.be/TuUrU0YaKTY
+The skeleton of the code -> 
