@@ -422,7 +422,7 @@ The `main` method invokes the GUI on the Event Dispatch Thread.
     }
 
 
-Youtube video links
+## Youtube video links
 Swing GUI implementation -> https://youtu.be/8nMAqL0sPO4
 MovieApp explanation ->https://youtu.be/TuUrU0YaKTY
 The skeleton of the code -> https://drive.google.com/drive/folders/1Qv5US5j15zy_zuxVTOHnD8yZBVn2LOjV?usp=sharing
